@@ -1,8 +1,8 @@
-# Fill in this file with code from the ACI hands-on lab
 
 import json
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
 
 APIC_URL = "https://devasc-aci-1.cisco.com/"
 
@@ -22,8 +22,8 @@ def apic_login():
                 {
                     "aaaUser": {
                         "attributes": {
-                            "name": "admin",
-                            "pwd": "!v3G@!4@Y"
+                            "name": "devnetuser",
+                            "pwd": "CardBoardGreen12!"
                         }
                     }
                 }
@@ -90,8 +90,7 @@ def get_devices():
     except requests.exceptions.RequestException:
         print("HTTP Request failed")
 
-
-# Supress credential warning for this exercise
+# Suppress credential warning for this exercise
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
