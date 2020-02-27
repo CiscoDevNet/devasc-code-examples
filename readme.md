@@ -29,4 +29,4 @@ This code requires Python3. The [requirements.txt](./requirements.txt) file list
 
 1. `py -3 -m venv venv`
 2. `source venv/Scripts/activate`
-3. `pip install -r requirements-win.txt`
+3. `pip install -r requirements.txt`
