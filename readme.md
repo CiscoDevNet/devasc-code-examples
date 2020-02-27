@@ -21,12 +21,12 @@ This code requires Python3. The [requirements.txt](./requirements.txt) file list
 
 ### MacOS or Linux
 
-1. python3 -m venv venv
-2. source venv/bin/activate
-3. pip install -r requirements.txt
+1. `python3 -m venv venv`
+2. `source venv/bin/activate`
+3. `pip install -r requirements.txt`
         
 ### Windows - recommendation to use git-bash terminal
 
-1. py -3 -m venv venv
-2. source venv/Scripts/activate
-3. pip install -r requirements-win.txt
+1. `py -3 -m venv venv`
+2. `source venv/Scripts/activate`
+3. `pip install -r requirements-win.txt`
