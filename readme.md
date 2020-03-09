@@ -1,4 +1,4 @@
-# README
+# DEVASC Code Examples
 
 This repository contains code examples for the DevNet Associate training courseware.
 
@@ -8,26 +8,25 @@ The `master` branch contains the blank files that you can fill in during the cou
 
 The `solutions` branch contains the working code.
 
-The `src` folder is a copy of the course files in the development environment.
-# README
+The `src` folder contains code examples for all the hands-on exercises so you can try them in your own development environment. 
 
-This repository contains code examples for the DevNet Associate training courseware.
+This code requires Python3. The [requirements.txt](./requirements.txt) file lists all the dependencies required by the code used in the course. Follow the instructions below to setup a local developerment environment that matches the in-browser development environment used in the course.
 
-You can clone this repo locally to work within your own development environment.
+## Get a local copy of the code
 
-The `master` branch contains the blank files that you can fill in during the course.
+1. Clone to repo, e.g., `git clone https://github.com/CiscoDevNet/devasc-code-examples.git`
+2. `cd devasc-code-examples/`
+   
+## Setup Python Virtual Environment
 
-The `solutions` branch contains the working code.
+### MacOS or Linux
 
-The `src` folder contains code examples for all the hands-on exercises so you can try them in your own development environment. It includes a `requirements.txt` file that matches the in-browser development environment set up. 
+1. `python3 -m venv venv`
+2. `source venv/bin/activate`
+3. `pip install -r requirements.txt`
+        
+### Windows - recommendation to use git-bash terminal
 
-Here are the libraries used in the `requirements.txt` file for the course.
-
-```
-ansible==2.9.2
-flask
-PyYAML
-pyotp==2.3.0
-pysqlite3==0.4.1
-requests
-```
+1. `py -3 -m venv venv`
+2. `source venv/Scripts/activate`
+3. `pip install -r requirements.txt`
