@@ -1,1 +1,1 @@
-# Fill in this file with the code from the dna-center authenticate exercise
+# Fill in this file with the code from the DNA Center authenticate exercise
