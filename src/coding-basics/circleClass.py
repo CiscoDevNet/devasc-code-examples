@@ -1,6 +1,6 @@
 # Fill in this file with the code from the Coding Basics - Classes exercise
 
-# Print the circumference for circles with a radius of 2, 5, and 7
+# Print the circumference for circles with a radius of a given value
 
 # Circle class.
 # When a Circle object is instantiated,
@@ -9,7 +9,6 @@
 # __init()__
 # circumference()
 # printCircumference()
-
 class Circle:
 
     def __init__(self, radius):
@@ -24,18 +23,11 @@ class Circle:
     def printCircumference(self):
       myCircumference = self.circumference()
       print ("Circumference of a circle with a radius of " + str(self.radius) + " is " + str(myCircumference))
-
-
-# Create the first class Circle defined object:  'circle1'
-circle1 = Circle(1)
-
-# Since printCircumference is a method, it is called using
-# [class instance].[method name] syntax.
+circle1 = Circle(2)
 circle1.printCircumference()
-
 # The Circle class can be instantiated multiple times
-circle2 = Circle(2)
+circle2 = Circle(5)
 circle2.printCircumference()
 
-circle3 = Circle(3)
+circle3 = Circle(7)
 circle3.printCircumference()
