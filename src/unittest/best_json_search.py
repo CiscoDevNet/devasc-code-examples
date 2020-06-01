@@ -1,4 +1,5 @@
-# Replaces function in recursive_json_search.py
+# Further improvement for the json_search function
+
 from test_data import *
 
 def json_search(key,input_object):
