@@ -1,6 +1,6 @@
 # README
 
-This repository contains code examples for the DevNet Associate training courseware.
+This repository contains code examples for the DevNet Associate training course.
 
 You can clone this repo locally to work within your own development environment.
 
@@ -21,8 +21,8 @@ pysqlite3==0.4.1
 requests
 ```
 
-## Author(s)
+## Maintenance
 
-This project was written and is maintained by the following individuals:
+This project is maintained by the following individuals:
 * Adrian Iliesu
 * Anne Gentle
