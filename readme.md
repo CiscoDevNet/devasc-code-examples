@@ -2,9 +2,9 @@
 
 One of the best ways to study for the [Cisco DevNet Associate Certification](https://developer.cisco.com/certification/) is through hands-on practice using worked examples. 
 
-This repository contains code examples for the [DevNet Associate Fundamentals course](https://developer.cisco.com/certification/fundamentals) available on the DevNet site. This course also has a related [Study Group available for DevNet Associate Certification](https://developer.cisco.com/certification/devasc-group/).
+This repository contains code examples for the [DevNet Associate Fundamentals course](https://developer.cisco.com/certification/fundamentals/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples) available on the DevNet site. This course also has a related [Study Group available for DevNet Associate Certification](https://developer.cisco.com/certification/devasc-group/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples).
 
-You can clone this repo locally to work within your own development environment. To set up a developer environment, you can refer to the [DevNet Learning Labs](https://developer.cisco.com/learning-labs/setup/).
+You can clone this repo locally to work within your own development environment. To set up a developer environment, you can refer to the [DevNet Learning Labs](https://developer.cisco.com/learning-labs/setup/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples).
 
 The `master` branch contains the blank files that you can fill in during the course.
 
@@ -18,7 +18,7 @@ This code requires Python3. The [requirements.txt](./requirements.txt) file list
 
 ## Get a local copy of the code
 
-1. Clone the repository. For example, `git clone https://github.com/CiscoDevNet/devasc-code-examples.git`.
+1. Clone the repository. For example, `git clone https://github.com/CiscoDevNet/devasc-code-examples.git`. 
 2. Change to the directory that contains the code files: `cd devasc-code-examples/`.
    
 ## Set up a Python Virtual Environment
