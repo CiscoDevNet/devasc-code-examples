@@ -11,6 +11,7 @@ The `solutions` branch contains the working code.
 The `src` folder contains code examples for all the hands-on exercises so you can try them in your own development environment. 
 
 This code requires Python3. The [requirements.txt](./requirements.txt) file lists all the dependencies required by the code used in the course. Follow the instructions below to setup a local developerment environment that matches the in-browser development environment used in the course. Here's a quick walkthrough.
+[![asciicast](https://asciinema.org/a/jST7b14YJgJnv2aJ1IhDLLtDj.svg)](https://asciinema.org/a/jST7b14YJgJnv2aJ1IhDLLtDj)
 
 ## Get a local copy of the code
 
