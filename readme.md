@@ -4,6 +4,14 @@ One of the best ways to study for the [Cisco DevNet Associate Certification](htt
 
 This repository contains code examples for the [DevNet Associate Fundamentals course](https://developer.cisco.com/certification/fundamentals/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples) available on the DevNet site. This course also has a related [Study Group available for DevNet Associate Certification](https://developer.cisco.com/certification/devasc-group/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples).
 
+![DevNet Associate Fundamentals course interactive terminal](course.png)
+
+## Requirements
+
+Python 3.7 or higher
+
+## Instructions
+
 You can clone this repo locally to work within your own development environment. To set up a developer environment, you can refer to the [DevNet Learning Labs](https://developer.cisco.com/learning-labs/setup/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples).
 
 The `master` branch contains the blank files that you can fill in during the course.
