@@ -14,7 +14,7 @@ The `src` folder contains code examples for all the hands-on exercises so you ca
 
 This code requires Python3. The [requirements.txt](./requirements.txt) file lists all the dependencies required by the code used in the course. Follow the instructions below to setup a local developerment environment that matches the in-browser development environment used in the course. Here's a quick walkthrough.
 
-[![asciicast](https://asciinema.org/a/jST7b14YJgJnv2aJ1IhDLLtDj.svg)](https://asciinema.org/a/jST7b14YJgJnv2aJ1IhDLLtDj)
+![asciicast demo](demo.gif)
 
 ## Get a local copy of the code
 
