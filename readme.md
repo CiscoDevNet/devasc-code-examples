@@ -1,6 +1,8 @@
-# DEVASC Code Examples
+# Cisco DevNet Associate Fundamentals Course code examples
 
-This repository contains code examples for the DevNet Associate Fundamentals course available on the DevNet site at https://developer.cisco.com/certification/fundamentals. This course also has a related [Study Group available for DevNet Associate Certification](https://developer.cisco.com/certification/devasc-group/).
+One of the best ways to study for the [Cisco DevNet Associate Certification](https://developer.cisco.com/certification/) is through hands-on practice using worked examples. 
+
+This repository contains code examples for the [DevNet Associate Fundamentals course](https://developer.cisco.com/certification/fundamentals) available on the DevNet site. This course also has a related [Study Group available for DevNet Associate Certification](https://developer.cisco.com/certification/devasc-group/).
 
 You can clone this repo locally to work within your own development environment. To set up a developer environment, you can refer to the [DevNet Learning Labs](https://developer.cisco.com/learning-labs/setup/).
 
@@ -11,6 +13,7 @@ The `solutions` branch contains the working code.
 The `src` folder contains code examples for all the hands-on exercises so you can try them in your own development environment. 
 
 This code requires Python3. The [requirements.txt](./requirements.txt) file lists all the dependencies required by the code used in the course. Follow the instructions below to setup a local developerment environment that matches the in-browser development environment used in the course. Here's a quick walkthrough.
+
 [![asciicast](https://asciinema.org/a/jST7b14YJgJnv2aJ1IhDLLtDj.svg)](https://asciinema.org/a/jST7b14YJgJnv2aJ1IhDLLtDj)
 
 ## Get a local copy of the code
@@ -18,7 +21,7 @@ This code requires Python3. The [requirements.txt](./requirements.txt) file list
 1. Clone the repository. For example, `git clone https://github.com/CiscoDevNet/devasc-code-examples.git`.
 2. Change to the directory that contains the code files: `cd devasc-code-examples/`.
    
-## Setup Python Virtual Environment
+## Set up a Python Virtual Environment
 
 You want to work in a [Python virtual environment](https://docs.python.org/3/tutorial/venv.html) so that you can be certainly only the required dependencies are installed and used for this project. 
 
