@@ -1,0 +1,4 @@
+# Enter the hosts or devices for Ansible playbooks
+
+[localhost]
+127.0.0.1
