@@ -33,6 +33,8 @@ This code requires Python3. The [requirements.txt](./requirements.txt) file list
 
 You want to work in a [Python virtual environment](https://docs.python.org/3/tutorial/venv.html) so that you can be certainly only the required dependencies are installed and used for this project. 
 
+> Note: This repository does not contain the source code for the Library REST API example included with the course development environment. You cannot run the `main.py` file and make calls successfully without the service available in the course.
+
 ### MacOS or Linux
 
 1. `python3 -m venv venv`
