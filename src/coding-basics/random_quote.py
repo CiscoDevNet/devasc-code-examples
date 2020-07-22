@@ -29,26 +29,26 @@ The message should include the user's quote and lucky numbers.
 # TRYIT: Create a random quote by calling generate_quote() and
 # generate_lucky_numbers() and then composing and returning the quote.
 
-quote = generate_quote()
-lucky_numbers = generate_lucky_numbers(how_many_lucky_numbers)
+    quote = generate_quote()
+    lucky_numbers = generate_lucky_numbers(how_many_lucky_numbers)
 
-return "{quote}\nLucky Numbers: {lucky_numbers}".format(
+    return "{quote}\nLucky Numbers: {lucky_numbers}".format(
     quote = quote,
     lucky_numbers = lucky_numbers,
-)
+    )
 
 def main():
     """Create and print a quote."""
     print("Get your quote!")
 
-# Prompt the user for how many lucky numbers they would like
-qty_lucky_numbers = input("Also, how many lucky numbers would you like?  ")
-qty_lucky_numbers = int(qty_lucky_numbers.strip())
+    # Prompt the user for how many lucky numbers they would like
+    qty_lucky_numbers = input("Also, how many lucky numbers would you like?  ")
+    qty_lucky_numbers = int(qty_lucky_numbers.strip())
 
-# Create and display the response
-random_quote = create_random_quote(qty_lucky_numbers)
-print("\nHere is your quote:\n")
-print(random_quote)
+    # Create and display the response
+    random_quote = create_random_quote(qty_lucky_numbers)
+    print("\nHere is your quote:\n")
+    print(random_quote)
 
-if name == 'main':
+if __name__ == "__main__":
     main()
