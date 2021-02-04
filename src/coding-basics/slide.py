@@ -1,5 +1,5 @@
 # TRYIT: Import the required math functions
-from math import degrees, hypot, sqrt, tan
+from math import degrees, sqrt, atan
 
 # TRYIT: Create variables to store the triangle sides input by the user
 a = input("Enter the rise of the slide's ladder: ")
@@ -15,7 +15,7 @@ sideb = run * run
 slide = int(sqrt(sidea + sideb))
 # You could also use:
 # slide = int(hypot(rise, run))
-pitch = int(degrees(tan(rise/run)))
+pitch = int(degrees(atan(rise/run)))
 
 # TRYIT: Create a Boolean variable to store true or false if the slide length meets safety standards
 slidesafe = False
@@ -23,7 +23,7 @@ slidesafe = False
 # TRYIT: Create an if...elif...else statement to test the measurements of the slide
 if pitch > 40:
     slidesafe = False
-elif rise > 7:
+elif rise > 6:
     slidesafe = False
 else:
     slidesafe = True
