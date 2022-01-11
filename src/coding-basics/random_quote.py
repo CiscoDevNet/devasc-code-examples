@@ -24,10 +24,10 @@ def generate_lucky_numbers(how_many: int) -> list:
 def create_random_quote(how_many_lucky_numbers: int) -> str:
     """Create and return a random quote.
 
-The message should include the user's quote and lucky numbers.
-"""
-# TRYIT: Create a random quote by calling generate_quote() and
-# generate_lucky_numbers() and then composing and returning the quote.
+    The message should include the user's quote and lucky numbers.
+    """
+    # TRYIT: Create a random quote by calling generate_quote() and
+    # generate_lucky_numbers() and then composing and returning the quote.
 
     quote = generate_quote()
     lucky_numbers = generate_lucky_numbers(how_many_lucky_numbers)
