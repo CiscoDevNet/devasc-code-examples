@@ -10,4 +10,4 @@ if testNum > 1:
     else:
       print(testNum, "is a prime number")
 else:
-    print("You must enter an integer.")
+    print("You must enter a positive integer greater than 1.")
