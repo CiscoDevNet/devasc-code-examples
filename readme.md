@@ -1,10 +1,8 @@
 # Cisco DevNet Associate Fundamentals Course code examples
 
+The DevNet Associate Fundaments course has been retired from the DevNet site. This repo will be archived and then removed in a month. 
+
 One of the best ways to study for the [Cisco DevNet Associate Certification](https://developer.cisco.com/certification/) is through hands-on practice using worked examples. 
-
-This repository contains code examples for the [DevNet Associate Fundamentals course](https://developer.cisco.com/certification/fundamentals/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples) available on the DevNet site. This course also has a related [Study Group available for DevNet Associate Certification](https://developer.cisco.com/certification/devasc-group/?utm_campaign=github21&utm_source=website&utm_medium=github-devasc-code-examples).
-
-![DevNet Associate Fundamentals course interactive terminal](course.png)
 
 ## Requirements
 
